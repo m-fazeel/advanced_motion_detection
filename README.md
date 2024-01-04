@@ -27,3 +27,14 @@ This personal project is a motion detection system developed using Python and Op
 3. **Kalman Filter:** Employs a Kalman Filter to predict the position of moving objects, enhancing tracking accuracy.
 4. **Object Tracking:** Capable of tracking multiple objects simultaneously.
 
+## Configuration
+
+- `skip_frames`: Number of frames to skip for detection. A lower number increases detection frequency.
+- `N`: The maximum number of objects that can be tracked at once.
+- Kalman Filter parameters like `x`, `E`, `D`, `B`, `H`, `R`, `u` for fine-tuning the tracking algorithm.
+
+
+## Copyright
+Copyright © 2024. All rights reserved.
+
+This software is provided for educational purposes only. It is prohibited to use this for any college assignment or personal use. Unauthorized distribution, modification or commercial usage is strictly forbidden. Please respect the rights of the author.
